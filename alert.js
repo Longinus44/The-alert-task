@@ -1,2 +1,2 @@
-if ("0");
-  alert ('hello')
+if ("0")
+  alert ('hello');
