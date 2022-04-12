@@ -12,17 +12,19 @@ if (a == 2 || a == 3) {
 }*/
 // rewring, using switch
 
-let a = +prompt('a?','')
+let a = +prompt('a?', '')
 switch (a) {
     case 0:
-    alert(0);
-    break;
+        alert(0);
+        break;
 
     case 1:
         alert(1);
         break;
 
-        case 2:
-        case 3:
-            alert('2,3')    
+    case 2:
+        alert('2,3');
+        break;
+    case 3:
+        alert('2,3');
 }
